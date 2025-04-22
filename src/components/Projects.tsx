@@ -1,6 +1,5 @@
-
 import { useState } from 'react';
-import { GitHub, Link as LinkIcon } from 'lucide-react';
+import { Github, Link as LinkIcon } from 'lucide-react';
 
 // Define the type for a project
 interface Project {
@@ -128,7 +127,7 @@ const Projects = () => {
                       rel="noopener noreferrer"
                       className="flex items-center text-gray-700 hover:text-portfolio-purple transition-colors"
                     >
-                      <GitHub size={18} className="mr-1" />
+                      <Github size={18} className="mr-1" />
                       <span>Code</span>
                     </a>
                   )}

@@ -1,5 +1,4 @@
-
-import { GitHub, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -25,7 +24,7 @@ const Hero = () => {
                 className="bg-gray-800 hover:bg-gray-900 text-white p-3 rounded-full transition duration-300"
                 aria-label="GitHub"
               >
-                <GitHub size={20} />
+                <Github size={20} />
               </a>
               <a 
                 href="https://www.linkedin.com/in/vyom-joshi-5668ae514/" 

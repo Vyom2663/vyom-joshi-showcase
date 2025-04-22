@@ -1,6 +1,5 @@
-
 import { useState } from 'react';
-import { Mail, GitHub, Linkedin, Phone, MapPin } from 'lucide-react';
+import { Mail, Github, Linkedin, Phone, MapPin } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
 
 const Contact = () => {
@@ -102,7 +101,7 @@ const Contact = () => {
                     className="bg-gray-800 hover:bg-gray-900 text-white p-3 rounded-full transition-colors"
                     aria-label="GitHub"
                   >
-                    <GitHub size={18} />
+                    <Github size={18} />
                   </a>
                   <a 
                     href="https://www.linkedin.com/in/vyom-joshi-5668ae514/" 

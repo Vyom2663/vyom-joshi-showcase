@@ -13,7 +13,7 @@ const AboutMe = () => {
             <div className="relative">
               <div className="w-full max-w-md rounded-lg overflow-hidden shadow-xl border-4 border-portfolio-lightpurple">
                 <img 
-                  src="/public/lovable-uploads/89128ca2-88a9-445d-a4d9-574228a50724.png" 
+                  src="/Images/pimage1.jpeg" //curretly my image but change to resume when it updated
                   alt="Vyom Joshi" 
                   className="w-full h-auto"
                 />

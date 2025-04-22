@@ -18,7 +18,7 @@ const Hero = () => {
             </p>
             <div className="flex space-x-4 mb-8">
               <a 
-                href="https://github.com/Vyom5669" 
+                href="https://github.com/Vyom2663" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gray-800 hover:bg-gray-900 text-white p-3 rounded-full transition duration-300"
@@ -27,7 +27,7 @@ const Hero = () => {
                 <Github size={20} />
               </a>
               <a 
-                href="https://www.linkedin.com/in/vyom-joshi-5668ae514/" 
+                href="https://www.linkedin.com/in/vyom-joshi-66b8aa314/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-[#0077B5] hover:bg-[#005885] text-white p-3 rounded-full transition duration-300"
@@ -36,7 +36,7 @@ const Hero = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="mailto:vyomjoshi1993@gmail.com" 
+                href="mailto:vyomjoshi2603@gmail.com" 
                 className="bg-portfolio-purple hover:bg-purple-700 text-white p-3 rounded-full transition duration-300"
                 aria-label="Email"
               >
@@ -62,7 +62,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden border-4 border-portfolio-purple shadow-xl animate-bounce-slow">
                 <img 
-                  src="/public/lovable-uploads/89128ca2-88a9-445d-a4d9-574228a50724.png" 
+                  src="/Images/pimage3.jpeg" 
                   alt="Vyom Joshi" 
                   className="w-full h-full object-cover"
                 />

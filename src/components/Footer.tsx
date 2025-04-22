@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-end">
             <div className="flex space-x-4 mb-4">
               <a 
-                href="https://github.com/Vyom5669" 
+                href="https://github.com/Vyom2663" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -29,7 +29,7 @@ const Footer = () => {
                 <Github size={20} />
               </a>
               <a 
-                href="https://www.linkedin.com/in/vyom-joshi-5668ae514/" 
+                href="https://www.linkedin.com/in/vyom-joshi-66b8aa314/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -38,7 +38,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="mailto:vyomjoshi1993@gmail.com" 
+                href="mailto:vyomjoshi2603@gmail.com" 
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="Email"
               >

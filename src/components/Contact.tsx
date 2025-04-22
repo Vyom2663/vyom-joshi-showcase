@@ -61,7 +61,7 @@ const Contact = () => {
                   <div>
                     <h4 className="text-sm font-semibold text-gray-500 mb-1">Email</h4>
                     <a href="mailto:vyomjoshi1993@gmail.com" className="text-gray-800 hover:text-portfolio-purple transition-colors">
-                      vyomjoshi1993@gmail.com
+                      vyomjoshi2603@gmail.com
                     </a>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ const Contact = () => {
                   <div>
                     <h4 className="text-sm font-semibold text-gray-500 mb-1">Phone</h4>
                     <a href="tel:+917486806852" className="text-gray-800 hover:text-portfolio-purple transition-colors">
-                      +91 7486806852
+                      +91 7486906922
                     </a>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ const Contact = () => {
                 <h4 className="text-lg font-semibold mb-4 text-gray-800">Connect With Me</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com/Vyom5669" 
+                    href="https://github.com/Vyom2663" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-gray-800 hover:bg-gray-900 text-white p-3 rounded-full transition-colors"
@@ -104,7 +104,7 @@ const Contact = () => {
                     <Github size={18} />
                   </a>
                   <a 
-                    href="https://www.linkedin.com/in/vyom-joshi-5668ae514/" 
+                    href="https://www.linkedin.com/in/vyom-joshi-66b8aa314/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-[#0077B5] hover:bg-[#005885] text-white p-3 rounded-full transition-colors"
@@ -113,7 +113,7 @@ const Contact = () => {
                     <Linkedin size={18} />
                   </a>
                   <a 
-                    href="mailto:vyomjoshi1993@gmail.com" 
+                    href="mailto:vyomjoshi2603@gmail.com" 
                     className="bg-portfolio-purple hover:bg-purple-700 text-white p-3 rounded-full transition-colors"
                     aria-label="Email"
                   >

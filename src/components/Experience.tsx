@@ -19,7 +19,7 @@ const experienceData: ExperienceItem[] = [
     institution: "Sarvajanik College of Engineering and Technology, Surat",
     date: "Expected Post-Graduation May'25",
     type: 'education',
-    description: "Current CGPA: 8.56/10",
+    description: "Current CGPA: 8.45/10",
     icon: <Book className="text-portfolio-purple" size={24} />,
   },
   {
@@ -27,7 +27,7 @@ const experienceData: ExperienceItem[] = [
     institution: "Uka Tarsadia University, Bardoli",
     date: "June'20 - May'23",
     type: 'education',
-    description: "CGPA: 8.76/10",
+    description: "CGPA: 5.76/10",
     icon: <Book className="text-portfolio-purple" size={24} />,
   },
   {

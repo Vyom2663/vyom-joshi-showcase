@@ -37,7 +37,7 @@ const milestones: Milestone[] = [
     id: 4,
     year: "2023",
     title: "Graduated BSc IT & Started MCA",
-    description: "Successfully completed Bachelor's with 8.76 CGPA and began Master's program at Sarvajanik College of Engineering and Technology.",
+    description: "Successfully completed Bachelor's with 5.76 CGPA and began Master's program at Sarvajanik College of Engineering and Technology.",
     icon: <Award size={20} />,
   },
   {

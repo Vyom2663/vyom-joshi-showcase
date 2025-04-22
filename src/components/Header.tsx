@@ -1,22 +1,40 @@
-
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    if (isMenuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isMenuOpen]);
+
   const navItems = [
-    { title: 'Home', path: '/' },
-    { title: 'About', path: '/about' },
-    { title: 'Experience', path: '/experience' },
-    { title: 'Projects', path: '/projects' },
-    { title: 'Journey', path: '/journey' },
-    { title: 'Contact', path: '/contact' },
+    { title: "Home", path: "/" },
+    { title: "About", path: "/about" },
+    { title: "Experience", path: "/experience" },
+    { title: "Projects", path: "/projects" },
+    { title: "Journey", path: "/journey" },
+    { title: "Contact", path: "/contact" },
   ];
 
   return (
@@ -40,7 +58,7 @@ const Header = () => {
         </nav>
 
         {/* Mobile Navigation Toggle */}
-        <button 
+        <button
           className="md:hidden text-gray-700 hover:text-portfolio-purple"
           onClick={toggleMenu}
           aria-label="Toggle menu"
@@ -51,7 +69,7 @@ const Header = () => {
 
       {/* Mobile Navigation Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-100 animate-fade-in">
+        <div ref={menuRef} className="md:hidden bg-white border-t border-gray-100 animate-fade-in">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             {navItems.map((item) => (
               <Link

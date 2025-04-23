@@ -1,5 +1,4 @@
-
-import { Award, Book, Briefcase, Code } from 'lucide-react';
+import { Award, Book, Briefcase, Code } from "lucide-react";
 
 // Define the types for our experience items
 interface ExperienceItem {
@@ -7,7 +6,7 @@ interface ExperienceItem {
   company?: string;
   institution?: string;
   date: string;
-  type: 'work' | 'education' | 'certificate';
+  type: "work" | "education" | "certificate";
   description: string;
   icon: React.ReactNode;
 }
@@ -15,41 +14,66 @@ interface ExperienceItem {
 // Create our experiences array - this can be modified easily
 const experienceData: ExperienceItem[] = [
   {
+    title: "InternShip",
+    institution: "AppStoneLab Technologies LLP.",
+    type: "certificate",
+    date: "2025",
+    description:
+      "Worked as a React Developer. ",
+    icon: <Award className="text-portfolio-purple" size={24} />,
+  },
+  {
     title: "Master of Computer Applications (MCA)",
     institution: "Sarvajanik College of Engineering and Technology, Surat",
     date: "Expected Post-Graduation May'25",
-    type: 'education',
+    type: "education",
     description: "Current CGPA: 8.45/10",
     icon: <Book className="text-portfolio-purple" size={24} />,
+  },
+  {
+    title: "Web Development",
+    type: "certificate",
+    date: "2023",
+    description:
+      "Completed comprehensive training in modern web development frameworks and tools.",
+    icon: <Award className="text-portfolio-purple" size={24} />,
   },
   {
     title: "Bachelor of Science in Information Technology (BSc IT)",
     institution: "Uka Tarsadia University, Bardoli",
     date: "June'20 - May'23",
-    type: 'education',
+    type: "education",
     description: "CGPA: 5.76/10",
     icon: <Book className="text-portfolio-purple" size={24} />,
-  },
-  {
-    title: "Web Development",
-    type: 'certificate',
-    date: "2023",
-    description: "Completed comprehensive training in modern web development frameworks and tools.",
-    icon: <Award className="text-portfolio-purple" size={24} />,
-  },
-  {
-    title: "Full Stack Development",
-    type: 'certificate',
-    date: "2022",
-    description: "Mastered both frontend and backend technologies for complete application development.",
-    icon: <Award className="text-portfolio-purple" size={24} />,
   },
 ];
 
 // Define an array of skills
 const skills = [
-  { category: "Technical Skills", items: ["HTML", "CSS", "JavaScript", "React.js", "PHP", "Laravel", "MySQL"] },
-  { category: "Soft Skills", items: ["Communication", "Problem-solving", "Time management", "Adaptability", "Team work"] },
+  {
+    category: "Technical Skills",
+    items: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "PHP",
+      "Laravel",
+      "MySQL",
+    ],
+  },
+  {
+    category: "Soft Skills",
+    items: [
+      "Communication",
+      "Problem-solving",
+      "Time management",
+      "Adaptability",
+      "Team work",
+    ],
+  },
 ];
 
 const Experience = () => {
@@ -59,7 +83,7 @@ const Experience = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           Experience & <span className="text-portfolio-purple">Skills</span>
         </h2>
-        
+
         {/* Timeline Section */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold mb-8 text-gray-800">My Journey</h3>
@@ -76,7 +100,9 @@ const Experience = () => {
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-md flex-grow border-l-4 border-portfolio-purple">
                   <div className="flex justify-between items-start flex-wrap">
-                    <h4 className="text-lg font-semibold text-gray-800">{item.title}</h4>
+                    <h4 className="text-lg font-semibold text-gray-800">
+                      {item.title}
+                    </h4>
                     <span className="text-sm font-medium text-portfolio-purple px-3 py-1 bg-portfolio-light rounded-full">
                       {item.date}
                     </span>
@@ -93,10 +119,12 @@ const Experience = () => {
             ))}
           </div>
         </div>
-        
+
         {/* Skills Section */}
         <div>
-          <h3 className="text-2xl font-bold mb-8 text-gray-800">Skills & Strengths</h3>
+          <h3 className="text-2xl font-bold mb-8 text-gray-800">
+            Skills & Strengths
+          </h3>
           <div className="grid md:grid-cols-2 gap-8">
             {skills.map((skillGroup, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">
@@ -106,8 +134,8 @@ const Experience = () => {
                 </h4>
                 <div className="flex flex-wrap gap-3">
                   {skillGroup.items.map((skill, skillIndex) => (
-                    <span 
-                      key={skillIndex} 
+                    <span
+                      key={skillIndex}
                       className="bg-portfolio-light text-gray-800 px-4 py-2 rounded-full text-sm font-medium"
                     >
                       {skill}

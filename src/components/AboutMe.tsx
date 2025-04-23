@@ -32,9 +32,9 @@ const AboutMe = () => {
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               <span className="bg-portfolio-light text-portfolio-purple px-4 py-2 rounded-full text-sm font-medium">HTML/CSS</span>
+              <span className="bg-portfolio-light text-portfolio-purple px-4 py-2 rounded-full text-sm font-medium">Tailwind CSS</span>
               <span className="bg-portfolio-light text-portfolio-purple px-4 py-2 rounded-full text-sm font-medium">JavaScript</span>
-              <span className="bg-portfolio-light text-portfolio-purple px-4 py-2 rounded-full text-sm font-medium">React.js</span>
-              <span className="bg-portfolio-light text-portfolio-purple px-4 py-2 rounded-full text-sm font-medium">PHP</span>
+              <span className="bg-portfolio-light text-portfolio-purple px-4 py-2 rounded-full text-sm font-medium">React.js/Next.js</span>
               <span className="bg-portfolio-light text-portfolio-purple px-4 py-2 rounded-full text-sm font-medium">Laravel</span>
               <span className="bg-portfolio-light text-portfolio-purple px-4 py-2 rounded-full text-sm font-medium">MySQL</span>
             </div>

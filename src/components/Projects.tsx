@@ -22,15 +22,17 @@ const projectsData: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "Laravel", "MySQL"],
     image: "https://images.unsplash.com/photo-1534723452862-4c874018d66d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     githubUrl: "https://github.com/Vyom2663/Grocery-Management-System-PHP-Laravel",
+    // liveUrl : " ",
     category: 'web',
   },
   {
     id: 2,
     title: "SupportHub",
     description: "SupportHub is a web-based support system designed to provide users with quick and organized help through categorized articles, ticket submissions, and real-time chat communication. ",
-    technologies: ["Next.JS", "Tailwind CSS", "MySQL", "Laravel"],
+    technologies: ["Next.JS", "Tailwind CSS", "MySQL", "Laravel" , "Shadcn/ui"],
     image: "/Images/supportHub.png",
-    githubUrl: "https://github.com/Vyom2663/EyeBeam",
+    githubUrl: "https://github.com/Vyom2663/support-hub",
+    liveUrl : "https://support-hub-pearl.vercel.app/",
     category: 'web',
   },
   {
@@ -40,6 +42,7 @@ const projectsData: Project[] = [
     technologies: ["Android", "Kotlin"],
     image: "/Images/EyeBeam.jpeg",
     githubUrl: "https://github.com/Vyom2663/eyebeam-android-app",
+    // liveUrl : " ",
     category: 'app',
   },
 ];

@@ -19,7 +19,7 @@ const experienceData: ExperienceItem[] = [
     type: "certificate",
     date: "2025",
     description:
-      "Worked as a React Developer. ",
+      "Working as a React Developer. ",
     icon: <Award className="text-portfolio-purple" size={24} />,
   },
   {

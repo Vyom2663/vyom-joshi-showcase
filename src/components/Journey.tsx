@@ -79,7 +79,7 @@ const Journey = () => {
           {/* Center line (only for sm and up) */}
           <div className="hidden sm:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-portfolio-purple z-0"></div>
 
-          <div className="space-y-12">
+          <div className="sm:space-y-12">
             {milestones.map((milestone, index) => (
               <div key={milestone.id} className={`flex items-center ${index % 2 === 0 ? 'sm:flex-row' : 'sm:flex-row-reverse'} relative`}>
                 {/* Dot */}

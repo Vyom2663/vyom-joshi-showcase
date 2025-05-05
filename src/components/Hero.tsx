@@ -67,7 +67,7 @@ const Hero = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-5 -right-5 bg-white p-4 rounded-lg shadow-lg">
+              <div className="absolute -bottom-5 -right-5 bg-white p-2 sm:p-4 rounded-lg shadow-lg">
                 <div className="text-lg font-semibold text-portfolio-purple">Full Stack Developer</div>
                 <div className="text-sm text-gray-600 text-balance">React/Next JS,Tailwind CSS, JS, Laravel</div>
               </div>

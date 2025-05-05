@@ -50,7 +50,7 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row gap-12">
           {/* Contact Information */}
           <div className="md:w-1/3">
-            <div className="bg-white p-8 rounded-lg shadow-md h-full">
+            <div className="bg-white p-4 sm:p-8 rounded-lg shadow-md h-full">
               <h3 className="text-2xl font-bold mb-6 text-gray-800">Contact Info</h3>
               
               <div className="space-y-6">
@@ -126,7 +126,7 @@ const Contact = () => {
           
           {/* Contact Form */}
           <div className="md:w-2/3">
-            <div className="bg-white p-8 rounded-lg shadow-md">
+            <div className="bg-white p-4 sm:p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-bold mb-6 text-gray-800">Send Me a Message</h3>
               
               <form onSubmit={handleSubmit}>

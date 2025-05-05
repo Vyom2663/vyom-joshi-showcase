@@ -83,7 +83,7 @@ const Projects = () => {
               className={`px-5 py-2 text-sm font-medium ${
                 filter === 'web'
                   ? 'bg-portfolio-purple text-white'
-                  : 'bg-white text-gray-700 hover:bg-gray-100 border-t border-b border-gray-200'
+                  : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
               }`}
             >
               Web Apps

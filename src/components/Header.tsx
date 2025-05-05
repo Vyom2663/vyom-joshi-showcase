@@ -70,7 +70,7 @@ const Header = () => {
       {/* Mobile Navigation Menu */}
       {isMenuOpen && (
         <div ref={menuRef} className="md:hidden bg-white border-t border-gray-100 animate-fade-in">
-          <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
+          <div className="container mx-auto px-5 py-4 flex flex-col space-y-4">
             {navItems.map((item) => (
               <Link
                 key={item.title}

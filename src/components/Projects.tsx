@@ -39,7 +39,7 @@ const projectsData: Project[] = [
     id: 3,
     title: "EyeBeam App",
     description: "An Android application designed to help users test and improve their vision through interactive eye exercises and diagnostics.",
-    technologies: ["Android", "Kotlin"],
+    technologies: ["Android", "Kotlin" , "Firebase"],
     image: "/Images/EyeBeam.jpeg",
     githubUrl: "https://github.com/Vyom2663/eyebeam-android-app",
     // liveUrl : " ",
@@ -154,7 +154,7 @@ const Projects = () => {
         {/* View more projects link */}
         <div className="text-center mt-12">
           <a 
-            href="https://github.com/Vyom5669" 
+            href="https://github.com/Vyom2663?tab=repositories" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center text-portfolio-purple hover:text-purple-700 font-medium"
